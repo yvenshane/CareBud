@@ -1,0 +1,37 @@
+.index {
+    padding: 20px;
+
+    .custom-nav {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 50px;
+        background-color: #f5f5f5;
+        margin-bottom: 20px;
+
+        .child-name {
+            font-size: 18px;
+            font-weight: bold;
+        }
+    }
+
+    .actions {
+        display: flex;
+        justify-content: space-around;
+        margin-bottom: 20px;
+
+        .action-button {
+            width: 45%;
+        }
+    }
+
+    .recent-temp,
+    .upcoming-med {
+        margin-bottom: 20px;
+    }
+
+    .data-overview {
+        margin-top: 20px;
+        text-align: center;
+    }
+}
